@@ -6,7 +6,7 @@ import './App.css'
 import axios from 'axios'
 
 // Now I don't need to define baseURL in each request, as I defined it in the main file.
-axios.defaults.baseURL = 'https://react-practice-seven-virid.vercel.app'; 
+axios.defaults.baseURL = 'https://react-backend-one.vercel.app/'; 
 
 function App() {
 
