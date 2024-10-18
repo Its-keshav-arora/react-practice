@@ -5,7 +5,7 @@ import axios from 'axios';
 export const loginContext = createContext();
 
 const client = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'react-practice-seven-virid.vercel.app',
 });
 
 
