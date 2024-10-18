@@ -5,7 +5,7 @@ import axios from 'axios';
 export const loginContext = createContext();
 
 const client = axios.create({
-    baseURL: 'https://react-backend-one.vercel.app/',
+    baseURL: 'http://localhost:8080',
 });
 
 

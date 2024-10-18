@@ -8,9 +8,7 @@ const port = 8080;
 
 const app = express();
 app.use(express.json());
-app.use(cors({
-    origin: 'https://react-practice-seven-virid.vercel.app'
-}));              // we need to use cors to allow request from localhost:5173 to localhost:8080
+app.use(cors());              // we need to use cors to allow request from localhost:5173 to localhost:8080
 app.use(express.urlencoded({ extended: true }));
 
 const User = require("./model/user");
